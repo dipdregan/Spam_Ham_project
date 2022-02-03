@@ -35,8 +35,8 @@ Inside the webpage you will be able to see a big white box.There u have to type 
 Message type will be shown at the bottom of webpage.
 
 # Project Interface
-#### I have deployed this model to Amazon Web Services (AWS)
-#### Link:http://ec2-3-140-241-66.us-east-2.compute.amazonaws.com:5000/
+#### I have deployed this model 
+####
 ##### User Interface
 ![ec2-3-140-241-66 us-east-2 compute amazonaws com_5000_](https://user-images.githubusercontent.com/90147205/149150718-6e0ccdb7-18e3-4a83-ab32-934bcf91eb16.png)
 
