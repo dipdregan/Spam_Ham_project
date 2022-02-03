@@ -49,6 +49,9 @@ Message type will be shown at the bottom of webpage.
 5. Pandas,Numpy
 6. Amazon Web Services
 7. Flask and others
+8. docker
+9. circle ci
+### here i am using docker and circle ci for application version control
 
 ### Check out HLD,LLD for more info
 
