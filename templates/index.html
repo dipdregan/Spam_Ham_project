@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        SPAM/HAM CLASSIFIER
+    </title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+<body>
+<div class="container">
+    <form action="/" method="POST">
+        <h1>Spam/Ham Classifier</h1>
+        <h4>Enter message here</h4>
+        <textarea name="message" rows="5" cols="20"
+                  style="margin-bottom: 18px; width: 700px; height: 250px;"></textarea>
+        <input type="submit" class="button" value="Predict">
+    </form>
+</div>
+
+<div class='footer'>
+<div class="contact">
+    <a target="_blank" href="https://github.com/akshat06/flight_fare"><i class="fab fa-github fa-lg contact-icon"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/in/akshat-pant06"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+    <p class='footer-description'>© AKSHAT PANT 2022</p>
+</div>
+
+<div class="contact">
+    <a target="_blank" href="https://github.com/dipdregan/flight_fare_prediction_using_docker"><i class="fab fa-github fa-lg contact-icon"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/in/dipendra-pratap-266135171/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+    <p class='footer-description'>© DIPENDRA PRATAP 2022</p>
+</div>
+
+
+</div>
+
+{% if prediction %}
+<p>{{ prediction }}</p>
+{% endif %}
+
+</body>
+</html>
